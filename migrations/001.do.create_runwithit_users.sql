@@ -9,7 +9,3 @@ CREATE TABLE runwithit_users (
     goal_distance FLOAT,
     goal_pace INT
 );
-
-VALUES
-    ('James', 'james@test.com', 'james123', 5, 480),
-    ('Amy', 'amy@test.com', 'amy123', 4, 540);
