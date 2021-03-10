@@ -43,15 +43,18 @@ runsRouter
             newRun
         )
         .then(run => {
-            if(!run){
-                return res.status(404).json({
-                    error: {
-                        message: 'Run does not exist'
-                    }
-                })
-            }
-            res.run = run
-            next()
+            // if(!run){
+            //     return res.status(404).json({
+            //         error: {
+            //             message: 'Run does not exist'
+            //         }
+            //     })
+            // }
+            RunsService.getAllRuns(req.app.get('db'))
+            .then((runs) => {
+                return res.status(201).json(runs)
+            })
+                
         })
         .catch(next)
     })

@@ -1,8 +1,10 @@
 const RunsService = {
     getAllRuns(knex) {
+        console.log('getRuns')
         return knex.select('*').from('runwithit_runs')
     },
     insertRun(knex, newRun){
+        console.log('insertRun')
         return knex
             .insert(newRun)
             .into('runwithit_runs')
