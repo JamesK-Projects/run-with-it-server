@@ -14,7 +14,7 @@ If the user logs a run that meets their goal, they will be presented with a cong
 
 Screenshot of the home page:
 
-![alt text](./src/images/home-page.png "Home Page Screenshot")
+![alt text](./images/home-page.png "Home Page Screenshot")
 
 After the user logs their run, the run data will be displayed in two different graphs in the progress page. The user can toggle between graphs that show the distance and the pace of each run. The user can also hover over each data point in the graphs to see a tooltip with that run's data.
 
@@ -22,7 +22,7 @@ The progress page will also display the user's personal best distance and fastes
 
 Screenshot of the progress page:
 
-![alt text](./src/images/progress-page.png "Progress Page Screenshot")
+![alt text](./images/progress-page.png "Progress Page Screenshot")
 
 In addition to the progress page, the data for each run that the user logs can be seen in the data page. Each run's data is displayed in a separate row containing the run's date, distance, time, pace, and notes. 
 
